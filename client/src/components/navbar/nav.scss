@@ -1,0 +1,46 @@
+@import '../../utils/colors.scss';
+
+
+.navbar{
+    background-color: $main-color;
+    color: #fff;
+}
+
+.nav{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+
+    
+}
+
+
+.auth_block{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.logo{
+    height: 100%;
+    width: auto;
+    margin-right: 10px;
+    
+}
+
+.reg{
+    margin-right: 10px;
+}

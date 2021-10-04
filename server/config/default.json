@@ -1,0 +1,6 @@
+{
+    "serverPort": 5000,
+    "dbUrl": "mongodb+srv://ibubizm:Ibubizm10@cloud.loolf.mongodb.net/cloud?retryWrites=true&w=majority",
+    "secretKey": "secret",
+    "filePath": "C:\\Users\\nasty\\Desktop\\ibubizm\\mern\\server\\files"
+}

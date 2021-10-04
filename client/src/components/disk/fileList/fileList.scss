@@ -1,0 +1,58 @@
+.fileList{
+    &__column{
+        display: grid;
+        grid-template-columns: 1fr 4fr repeat(4, 1fr);
+        border-bottom: 1px solid rgba(71, 70, 70, 0.521);
+        padding: 10px;
+        align-items: center;
+        cursor: pointer;
+        transition: all ease .3s;
+        
+        &:hover{
+            transform: scale(1.02);       
+        }
+
+        &:hover .fileList__data{
+            grid-column-start: 3;
+        }
+
+        &:hover .fileList__size{
+            grid-column-start: 4;
+        }
+
+        &:hover .fileList__btn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 5px;
+            cursor: pointer;
+            img{
+                height: 30px;
+            }
+        }
+       
+    }
+
+    &__btn{
+        display: none;
+    }
+
+    &__name{
+        grid-column-start: 2;
+        justify-self: start;
+    }
+
+    &__data{
+        grid-column-start: 5;
+        justify-self: center;
+    }
+
+    &__size{
+        grid-column-start: 6;
+        justify-self: center;
+    }
+    img{
+        height: 40px;
+    }
+}
+
